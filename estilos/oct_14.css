@@ -1,5 +1,9 @@
+
+body {
+    background-color: #94BFB7;
+}
+
 #menu{
-	/*estilo de nuestra lista*/
 	background-color:#414141;
 	list-style:none;
 	width:auto;
@@ -8,13 +12,11 @@
 	height:36px;
 }
 #menu li{
-	/*estilo a cada uno de los elementos(li) de nuestro menu*/
-	float:left;/* propiedad importante para que nuestro menu tome la forma horizontal*/
+	float:left;
 	display:block;
 	position:relative;
 }
 #menu li a{
-/*estilo de los enlaces */
 	color:#fff;
 	text-decoration:none;
 	font-family:Helvetica, Arial, sans-serif;
@@ -24,23 +26,22 @@
 	display:block;
 }
 #menu li ul{
-/*estilo de los submenus*/
 	width:120px;
 	background:#F8F8F8;
 	border:1px #ccc solid;
-	display:none; /*importante para que los submenus no estén visibles*/
+	display:none; 
 	position:absolute;
 	z-index:999;
 	margin-top:0px;
 }
 #menu li ul li{
-	/*estilo a cada uno de los elementos(li) de nuestro submenu*/
+	
 	width:100%;
 	list-style:none;
 	display:block;
 }
 #menu li ul li a{
-/*estilo a cada uno de los enlaces de nuestro submenu*/
+
 	color:#21759b;
 	font-size:14px;
 	line-height:1.3em;
@@ -49,13 +50,68 @@
 	padding:8px
 }
 #menu li ul li a:hover{
-	/*un poco de decoracion a los enlaces de nuestro submenu al estar el cursor sobre ellos con ayuda de el selector :hover */
-	background-color:#FFF;
 	color:#444;
 	text-decoration:underline;
 	}
 	
-#menu li:hover ul{
-	/*con este selector definimos que cuando el cursor este sobre un elemento(li) que contenga un elemento(ul) dentro le asigne la propiedad display:block; para que este a su vez pase de invisible a visible*/
+#menu li:hover ul{	
 	display:block;
+}
+
+#contenedor {
+    width: 100%;
+}
+
+
+img {
+    width: 100%;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 1.08em;
+}
+
+#logo {
+    width: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#img1 {
+    width: 50%;
+    height: 24vw;
+    float:left;
+    display: block;
+    background-image: url('../image/foto1.jpg');
+    background-size: 100% 100%;
+    margin 15px;
+}
+#img2 {
+    width: 50%;
+    height: 24vw;
+    float:left;
+    display: block;
+    background-image: url('../image/foto2.jpg');
+    background-size: 100% 100%;
+    margin 15px;
+}
+#img3 {
+    width: 50%;
+    height: 24vw;
+    float:left;
+    display: block;
+    background-image: url('../image/foto3.jpeg');
+    background-size: 100% 100%;
+    margin 15px;
+}
+#img4 {
+    width: 50%;
+    height: 24vw;
+    float:left;
+    display: block;
+    background-image: url('../image/foto4.jpg');
+    background-size: 100% 100%;
+    margin 15px;
 }
