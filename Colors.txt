@@ -1,0 +1,9 @@
+azul del botn #12121c
+
+color logo #343454
+
+letra de botones #f8fdbe
+
+sobre...  #bfbe73
+
+blanco  #000
