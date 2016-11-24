@@ -36,3 +36,9 @@
 .myFooter {
     padding-bottom: 75px;
 }
+
+body {
+    background-image: url('images/fondo3-01.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
