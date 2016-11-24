@@ -1,0 +1,38 @@
+.historyContainer {
+    padding-top: 150px;
+}
+
+.historyText {
+    padding-top: 80px;
+    height: 500px;
+}
+
+.yellowTittle{
+    color: yellow;
+    margin-bottom: 30px;
+    
+}
+
+.historyImage {
+    height: 500px;
+}
+
+
+
+
+
+
+
+.imgGallery {
+    padding: 100px 50px;
+    
+}
+
+.videoYoutube {
+    height: 800px;
+    padding-top:80px;
+}
+
+.myFooter {
+    padding-bottom: 75px;
+}

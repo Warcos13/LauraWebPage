@@ -1,56 +1,112 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>Parques Naturales</title>
-	<link rel="stylesheet" type="text/css" href="estilos/oct_14.css"> 
-</head>
-<body>
-    <div id="contenedor">
-        <header>
-            <ul id="menu">
-                <li><a href=#>Roja</a>
-                    <ul>
-                        <li><a href=#>submenu1</a></li>
-                        <li><a href=#>submenu1</a></li>
-                        <li><a href=#>submenu1</a></li>
-                    </ul>
-                </li>
-                <li><a href=#>Dorada</a>
-                    <ul>
-                        <li><a href=#>submenu2</a></li>
-                        <li><a href=#>submenu2</a></li>
-                        <li><a href=#>submenu2</a></li>
-                    </ul>
-                </li>
-                <li><a href=#>Negra</a>
-                    <ul>
-                        <li><a href=#>submenu3</a></li>
-                        <li><a href=#>submenu3</a></li>
-                        <li><a href=#>submenu3</a></li>
-                    </ul> 
-                </li>
-            </ul>
-            <div id="logo">
-                <img src = "image/logo.png" >
-            </div>
-        </header>
-        <div id="contenedor" >
-            <div id="textContainer">
-                <p>
-                    La historia de la cerveza es la descripción secuenciada, desde su origen, de la evolución de una de las bebidas fermentadas más antiguas de la humanidad.1 Se produce la cerveza mediante la fermentación alcohólica de los cereales ayudada por la acción de diversas levaduras. Los ingredientes básicos que intervienen en la elaboración de esa bebida son: el agua, los cereales (generalmente cebada o trigo), las levaduras y (recientemente en su historia) el lúpulo (Humulus lupulus L.).2 La combinación de la calidad, cantidad y especie de cada uno de estos ingredientes produce una gran variedad de tipos de cerveza. A través de su evolución, dependiendo de la época que se trate, el país y de la cultura, se ha considerado una bebida bien de carácter social, con cualidades refrescantes, o con características nutritivas. Las primeras cervezas eran de tipo ale, es decir, de fermentación a temperatura ambiente causada por la levadura Saccharomyces cerevisiae (sin empleo de lúpulo), responsable igualmente de las fermentaciones del pan y el vino. Posteriormente, ya en el siglo XV se comienza a fermentar en la zona baja de las cubas. El efecto de una nueva levadura (Saccharomyces pastorianus) necesita menores temperaturas y se busca de forma natural en el fondo de cuevas: surge así la cerveza tipo lager. En el mismo siglo se incluye el lúpulo en algunas de las cervezas. Su popularidad y agradable sabor hace que esta nueva cerveza (lager), esté en oposición con la clásica (ale). Su producción necesitará el advenimiento de las máquinas de vapor y la introducción de los sistemas de refrigeración fundamentados en los compresores.<br><br>
-                    Uno de los hitos importantes en la fabricación de cerveza fue el inicio de la capacidad de cultivar las levaduras fermentativas, este hito fue alcanzado en las primeras décadas del siglo XX. Anteriormente a estas fechas, el mosto de la cerveza se inoculaba con las fermentaciones precedentes, siendo el proceso poco eficiente e impredecible. En 1883 el micólogo danés Emil Christian Hansen, de los laboratorios de Carlsberg, ideó un método para emplear cultivos unicelulares en la producción de levaduras.3 La utilización de cultivos puros de levaduras se adoptó de inmediato en todo el mundo. Primero en las cervezas de tipo lager y posteriormente en las ale. La investigación en el terreno de la microbiología aplicada a los mecanismos de las levaduras permitió la aparición de nuevos tipos de cervezas desconocidos hasta la fecha. Las cervezas tipo lager (concretamente las pale lager) suponen, a comienzos del siglo XXI, casi un 90 % de la producción mundial.<br><br>
-                    Durante la Revolución Industrial la producción de cerveza tuvo que pasar de ser artesanal, y orientada exclusivamente al consumo doméstico, a ser producida a escala industrial y orientada a las masas.4 A este incremento de la producción mundial contribuyeron, por una parte, las mejoras tecnológicas aplicadas a la industria y el aumento en el conocimiento de los procesos microbiológicos existentes en la producción de la cerveza y, por otra, la constante urbanización de las clases sociales. En el siglo XX la producción cervecera mundial se encontraba en manos de compañías multinacionales (algunas como Anheuser-Busch InBev) y varios miles de pequeños productores, que van desde los denominados brewpubs hasta cerveceras regionales (aludiendo al término terroir). La cerveza se consume en cientos de variedades en locales hosteleros como: bares, tabernas, pubs, biergartens y festivales especiales, así como celebraciones diversas a lo largo del mundo. Una de las últimas innovaciones del siglo XXI l son las microcervecerías.
-                </p>
-                <div id="img1"></div>
-                <div id="img2"></div>
-                <div id="img3"></div>
-                <div id="img4"></div>
-            </div>
-        </div>
-        <footer>
+<html lang="es">
 
-        </footer>
-    </div>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Space Explorer</title>
+        <!-- Normalize -->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        <!-- Bootstrap CSS -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" type="text/css" href="styles.css"> 
+    </head>
+    <body data-spy="scroll" data-target="#custom-navbar"> 
+        <header>
+            <nav id="custom-navbar" class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="#" class="navbar-brand">Space Explorer</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#history">Historia</a></li>
+                            <li><a href="#gallery">Galeria</a></li>
+                            <li><a href="#video">Trailer</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+    </header>
+        <main class="col-md-10 col-md-offset-1 container fluid">
+            <section id="history" class="historyContainer">
+                <div class = "row">
+                    <div class="col-md-6 historyText">
+                        <h1 class="yellowTittle">Sobre Space Explorer</h1> 
+                        <p>
+                            Space explorer es un juego de aventura y viajes espaciales peculiares.
+                        </p>
+
+                        <p>
+                            En la aventura de este juego seras un astronauta de la NASA que ha emprendido
+                            un viaje al espacio para encontrar vida en otros planetas.
+                        </p>
+                        <p>
+                            Pero no solo encontrara vida sino que viajara en el tiempo.
+                        </p>
+                        <p>
+                            acompaña a Sam el astronauta en esta maravillosa aventura en el espacio.
+                        </p>
+                    </div>
+                    
+                    <div class="col-md-6 center-block historyImage">
+                         <img src="https://d11xdyzr0div58.cloudfront.net/static/vector_tux.864e6cdcc23e.png" alt="Some Test Image" class="img-responsive">                        
+                    </div>                    
+                </div>    
+            </section>
+            <section id=gallery class="galleryContainer">
+                <div class="row">
+                    <div class="col-md-4 imgGallery">
+                         <img src="https://d11xdyzr0div58.cloudfront.net/static/vector_tux.864e6cdcc23e.png" alt="Some Test Image" class="img-responsive">                        
+                    </div>   
+                    <div class="col-md-4 imgGallery">
+                             <img src="https://d11xdyzr0div58.cloudfront.net/static/vector_tux.864e6cdcc23e.png" alt="Some Test Image" class="img-responsive">                        
+                    </div> 
+                    <div class="col-md-4 imgGallery">
+                             <img src="https://d11xdyzr0div58.cloudfront.net/static/vector_tux.864e6cdcc23e.png" alt="Some Test Image" class="img-responsive">                        
+                    </div>             
+                </div>
+                <div class="row">
+                    <div class="col-md-4 imgGallery">
+                         <img src="https://d11xdyzr0div58.cloudfront.net/static/vector_tux.864e6cdcc23e.png" alt="Some Test Image" class="img-responsive">                        
+                    </div>   
+                    <div class="col-md-4 imgGallery">
+                             <img src="https://d11xdyzr0div58.cloudfront.net/static/vector_tux.864e6cdcc23e.png" alt="Some Test Image" class="img-responsive">                        
+                    </div> 
+                    <div class="col-md-4 imgGallery">
+                             <img src="https://d11xdyzr0div58.cloudfront.net/static/vector_tux.864e6cdcc23e.png" alt="Some Test Image" class="img-responsive">                        
+                    </div>             
+                </div>
+            </section>
+            <section id="video" class="videoYoutube">
+            <iframe class="center-block" width="800" height="600" src="https://www.youtube.com/embed/g0FA1Z8plyk" frameborder="0" allowfullscreen></iframe>
+            </section>
+            <footer>
+                <div class="myFooter">
+                    <div class="row">
+                        <hr>
+                        <div class="col-lg-12">
+                            <div class="col-md-8">
+                                <a href="http://www.youtube.com">Youtube</a> | <a href="http://www.facebook.com">Facebook</a>    
+                            </div>
+                            <div class="col-md-4">
+                                <p class="muted pull-right">© 2016 Laura Marcela Macias. All rights reserved</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>            
+            </footer>
+        </main>
+        <!-- jQuery -->
+        <script src="http://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <!-- Bootstrap JS -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    </body>
 </html>
+    
