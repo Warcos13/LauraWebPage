@@ -88,3 +88,24 @@ body {
     border-top-color: #555;
     border-bottom-color: #555;
 }
+
+.navbar-nav > li > a{
+    
+    padding-top:25px !important; 
+    padding-bottom:0 !important;
+    padding-left: 50px;
+    height: 75px;
+    width: 150px;
+}
+
+.navbar-brand {
+    
+    padding-top:5px !important; 
+    padding-bottom:0 !important;
+    height: 75px;
+}
+.navbar {min-height:75px !important;}
+
+#custom-navbar {
+    
+}
