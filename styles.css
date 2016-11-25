@@ -1,11 +1,18 @@
 
-/*@font-face {
-    font-family: "Font1";
-    src: url("../fonts/fontName.ttf");
-}*/
+@font-face {
+    font-family: "textFont";
+    src: url("fonts/textFont.ttf");
+}
+
+@font-face {
+    font-family: "navbarFont";
+    src: url("fonts/navbarFont.ttf");
+}
 
 .historyContainer {
     padding-top: 150px;
+    height: 800px;
+    margin-bottom: 50px;
 }
 
 .historyText {
@@ -14,13 +21,15 @@
 }
 
 .yellowTittle{
+    font-family: navbarFont;
     color: yellow;
     margin-bottom: 30px;
-    
+    font-size: 3em;
 }
 
 .historyImage {
-    height: 500px;
+    padding-top: 150px;
+    height: 600px
 }
 
 .imgGallery {
@@ -45,61 +54,30 @@ body {
 
 /* navbar */
 .navbar-default {
-    background-color: #F8F8F8;
-    border-color: #E7E7E7;
-}
-/* title */
-.navbar-default .navbar-brand {
-    color: #777;
-}
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-    color: #5E5E5E;
+    font-family: navbarFont;
+    font-size: 2em;
+    background-color: #343454;
 }
 /* link */
 .navbar-default .navbar-nav > li > a {
-    color: #777;
+    color: #ffff66;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #ffff00;
-    
-    background-color: #E7E7E7;
+    color: #f8fdbe;
+    background-color: #0C0C13;
 }
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
-    color: #555;
-    background-color: #E7E7E7;
+    color: #f8fdbe;
+    background-color: #0C0C13;
 }
-.navbar-default .navbar-nav > .open > a, 
-.navbar-default .navbar-nav > .open > a:hover, 
-.navbar-default .navbar-nav > .open > a:focus {
-    color: #555;
-    background-color: #D5D5D5;
-}
-/* caret */
-.navbar-default .navbar-nav > .dropdown > a .caret {
-    border-top-color: #777;
-    border-bottom-color: #777;
-}
-.navbar-default .navbar-nav > .dropdown > a:hover .caret,
-.navbar-default .navbar-nav > .dropdown > a:focus .caret {
-    border-top-color: #333;
-    border-bottom-color: #333;
-}
-.navbar-default .navbar-nav > .open > a .caret, 
-.navbar-default .navbar-nav > .open > a:hover .caret, 
-.navbar-default .navbar-nav > .open > a:focus .caret {
-    border-top-color: #555;
-    border-bottom-color: #555;
-}
-
 .navbar-nav > li > a{
     
     padding-top:25px !important; 
     padding-bottom:0 !important;
-    padding-left: 50px;
+    padding-left: 35px;
     height: 75px;
     width: 150px;
 }
@@ -111,7 +89,3 @@ body {
     height: 75px;
 }
 .navbar {min-height:75px !important;}
-
-#custom-navbar {
-    
-}
