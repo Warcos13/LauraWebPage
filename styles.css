@@ -10,7 +10,7 @@
 }
 
 .historyContainer {
-    padding-top: 150px;
+    padding-top: 125px;
     height: 800px;
     margin-bottom: 50px;
 }
@@ -89,3 +89,17 @@ body {
     height: 75px;
 }
 .navbar {min-height:75px !important;}
+
+p {
+    color: white;
+    font-family: textFont;
+    font-size: 1.5em;
+}
+
+.imgTime {
+    margin-left: 80px;
+}
+
+.footerText {
+    font-size: 0.8em;
+}
